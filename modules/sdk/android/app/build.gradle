@@ -1,0 +1,19 @@
+dependencies {
+    debugImplementation 'io.tixngo.sdk:flutter_debug:4.2625.3'
+    releaseImplementation 'io.tixngo.sdk:flutter_release:4.2625.3'
+    debugImplementation 'io.tixngo.sdkUtils:sdkUtils-debug:4.2625.3'
+    releaseImplementation 'io.tixngo.sdkUtils:sdkUtils-release:4.2625.3'
+}
+
+android {
+    namespace = "com.tuboleta.santafepassapp"
+
+    defaultConfig {
+        applicationId = "com.tuboleta.santafepassapp"
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+        manifestPlaceholders["appAuthRedirectScheme"] = "com.tuboleta.santafepassapp"
+    }
+}

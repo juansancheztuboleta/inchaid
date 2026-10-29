@@ -1,0 +1,44 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="expo.modules.sdk" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+5-->INJECTED
+5-->INJECTED
+6
+7    <uses-permission android:name="android.permission.READ_CONTACTS" />
+7-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:2:5-72
+7-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:2:22-69
+8    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+8-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:3:5-77
+8-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:3:22-74
+9
+10    <application>
+10-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:5:5-19:19
+11        <activity
+11-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:6:9-10:58
+12            android:name="io.flutter.embedding.android.FlutterActivity"
+12-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:7:13-72
+13            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+13-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:8:13-144
+14            android:hardwareAccelerated="true"
+14-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:9:13-47
+15            android:windowSoftInputMode="adjustResize" />
+15-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:10:13-55
+16
+17        <meta-data
+17-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:12:9-14:33
+18            android:name="flutterEmbedding"
+18-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:13:13-44
+19            android:value="2" />
+19-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:14:13-30
+20
+21        <service
+21-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:16:9-18:40
+22            android:name="com.kontakt.sdk.android.ble.service.ProximityService"
+22-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:17:13-80
+23            android:exported="false" />
+23-->C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\white-label\modules\sdk\android\src\main\AndroidManifest.xml:18:13-37
+24    </application>
+25
+26</manifest>

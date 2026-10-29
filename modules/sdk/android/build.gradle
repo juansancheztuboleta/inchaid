@@ -1,0 +1,59 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.sdk'
+version = '0.1.0'
+
+// La versión publicada por TIXNGO lleva el prefijo "v" (URL y coordenadas Maven).
+def tixngoSdkVersion = 'v4.2625.3'
+
+// Credenciales del Maven privado de TIXNGO. Se leen (en orden) de:
+//   1. ~/.gradle/gradle.properties -> tixngoMavenUser / tixngoMavenPassword
+//   2. ~/.gradle/gradle.properties -> TIXNGO_MAVEN_USER / TIXNGO_MAVEN_PASSWORD
+//   3. Variables de entorno TIXNGO_MAVEN_USER / TIXNGO_MAVEN_PASSWORD (EAS Build / CI)
+def tixngoProp = { String camel, String upper ->
+  findProperty(camel) ?: findProperty(upper) ?: System.getenv(upper)
+}
+def tixngoMavenUser = tixngoProp('tixngoMavenUser', 'TIXNGO_MAVEN_USER')
+def tixngoMavenPassword = tixngoProp('tixngoMavenPassword', 'TIXNGO_MAVEN_PASSWORD')
+
+if (!tixngoMavenUser || !tixngoMavenPassword) {
+  throw new GradleException(
+    "Faltan las credenciales de TIXNGO. Agrega tixngoMavenUser y tixngoMavenPassword " +
+    "a ~/.gradle/gradle.properties o define TIXNGO_MAVEN_USER / TIXNGO_MAVEN_PASSWORD."
+  )
+}
+
+// Los AAR del SDK son dependencias transitivas de :app, así que los repositorios
+// deben estar disponibles en todos los proyectos, no solo en este módulo.
+rootProject.allprojects {
+  repositories {
+    maven {
+      url = uri("https://d1s53pweuo5d17.cloudfront.net/sdk/android/${tixngoSdkVersion}")
+      credentials {
+        username = TIXNGO_MAVEN_USER
+        password = TIXNGO_MAVEN_PASSWORD
+      }
+    }
+    maven {
+      url = uri("https://storage.googleapis.com/download.flutter.io")
+    }
+  }
+}
+
+android {
+  namespace "expo.modules.sdk"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+  }
+}
+
+dependencies {
+  debugImplementation "io.tixngo.sdk:flutter_debug:${tixngoSdkVersion}"
+  releaseImplementation "io.tixngo.sdk:flutter_release:${tixngoSdkVersion}"
+  debugImplementation "io.tixngo.sdkUtils:sdkUtils-debug:${tixngoSdkVersion}"
+  releaseImplementation "io.tixngo.sdkUtils:sdkUtils-release:${tixngoSdkVersion}"
+}

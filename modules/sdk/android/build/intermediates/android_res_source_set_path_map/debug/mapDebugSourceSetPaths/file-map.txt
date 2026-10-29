@@ -1,0 +1,9 @@
+expo.modules.sdk-pngs-0 C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\inchaid\modules\sdk\android\build\generated\res\pngs\debug
+expo.modules.sdk-updated_navigation_xml-1 C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\inchaid\modules\sdk\android\build\generated\updated_navigation_xml\debug
+expo.modules.sdk-mergeDebugResources-2 C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\inchaid\modules\sdk\android\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+expo.modules.sdk-mergeDebugResources-3 C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\inchaid\modules\sdk\android\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+expo.modules.sdk-debug-4 C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\inchaid\modules\sdk\android\build\intermediates\merged_res\debug\mergeDebugResources
+expo.modules.sdk-debug-5 C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\inchaid\modules\sdk\android\build\intermediates\packaged_res\debug\packageDebugResources
+expo.modules.sdk-debug-6 C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\inchaid\modules\sdk\android\src\debug\res
+expo.modules.sdk-main-7 C:\Users\JuanSanchez\Documents\Tuboleta\inchaid\inchaid\modules\sdk\android\src\main\res
+gradleHome-0 C:\Users\JuanSanchez\.gradle
