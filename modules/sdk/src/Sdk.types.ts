@@ -19,6 +19,10 @@ export type SdkWidget = 'home' | 'transferCenter' | 'deletedTicket' | 'resale' |
 export type SdkInitializeOptions = {
   env: SdkEnv;
   appIds: { demo?: string; int?: string; val?: string; preProd?: string; prod?: string };
+  /** Dominio de la API por entorno (slot), p. ej. `https://val5-api.tixngo.io`. Solo iOS por ahora. */
+  customDomains?: { demo?: string; int?: string; val?: string; preProd?: string; prod?: string };
+  deeplinkPathPrefix?: string;
+  deeplinkHost?: string;
   language?: SdkLanguage;
   supportLanguages?: SdkLanguage[];
   debug?: boolean;

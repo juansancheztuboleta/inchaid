@@ -6,7 +6,15 @@
 export type Copy = {
   tabs: { feed: string; wallet: string; settings: string };
   feed: { title: string; sectionTitle: string; buyTickets: string };
-  wallet: { title: string };
+  wallet: {
+    title: string;
+    signInTitle: string;
+    signInHint: string;
+    signIn: string;
+    errorTitle: string;
+    retry: string;
+    unavailable: string;
+  };
   settings: { title: string; myTeam: string; changeTeam: string };
   teams: { title: string; intro: string; choose: string };
 };
@@ -14,7 +22,15 @@ export type Copy = {
 export const defaultCopy: Copy = {
   tabs: { feed: 'Feed', wallet: 'Billetera', settings: 'Ajustes' },
   feed: { title: '{short}', sectionTitle: 'Del club', buyTickets: 'Comprar boletas' },
-  wallet: { title: 'Billetera' },
+  wallet: {
+    title: 'Billetera',
+    signInTitle: 'Tus boletas',
+    signInHint: 'Inicia sesión para ver y transferir tus boletas.',
+    signIn: 'Iniciar sesión',
+    errorTitle: 'No pudimos abrir tus boletas',
+    retry: 'Reintentar',
+    unavailable: 'La billetera solo está disponible en la app de iOS y Android.',
+  },
   settings: { title: 'Configuración', myTeam: 'Mi equipo', changeTeam: 'Cambiar de equipo' },
   teams: {
     title: 'Cambiar de equipo',

@@ -4,7 +4,9 @@ import { Platform, View } from 'react-native';
 import type { SdkViewProps } from './Sdk.types';
 
 const NativeView =
-  Platform.OS === 'android' ? requireNativeView<SdkViewProps>('Sdk') : null;
+  Platform.OS === 'android' || Platform.OS === 'ios'
+    ? requireNativeView<SdkViewProps>('Sdk')
+    : null;
 
 /**
  * Pinta una pantalla del SDK de TIXNGO embebida. Monta la vista solo después

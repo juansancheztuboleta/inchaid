@@ -5,10 +5,17 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "inchaid",
+    "scheme": [
+      "inchaid",
+      "tixngo"
+    ],
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.anonymous.inchaid",
+      "infoPlist": {
+        "NSContactsUsageDescription": "Necesitamos acceso a tus contactos para elegir a quién transferir tus boletas."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -34,7 +41,37 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
-      ]
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "17.6",
+            "useFrameworks": "static",
+            "extraPods": [
+              {
+                "name": "Tixngo",
+                "path": "/Volumes/Luxwise/Tuboleta/inchaId/sdk/ios"
+              },
+              {
+                "name": "Tixngo-debug",
+                "path": "/Volumes/Luxwise/Tuboleta/inchaId/sdk/ios",
+                "configurations": [
+                  "Debug"
+                ]
+              },
+              {
+                "name": "Tixngo-release",
+                "path": "/Volumes/Luxwise/Tuboleta/inchaId/sdk/ios",
+                "configurations": [
+                  "Release"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
