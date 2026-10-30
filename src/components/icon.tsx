@@ -1,7 +1,7 @@
 import { HugeiconsIcon, type IconSvgElement } from '@hugeicons/react-native';
 
-import { type ThemeColor } from '@/constants/theme';
 import { useTheme } from '@/hooks/use-theme';
+import { type ThemeColor } from '@/theme/tokens';
 
 type IconProps = {
   icon: IconSvgElement;

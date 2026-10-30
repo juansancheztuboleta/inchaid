@@ -1,6 +1,7 @@
 import { StyleSheet, Text, type TextProps } from 'react-native';
 
-import { Fonts, type ThemeColor } from '@/constants/theme';
+import { Fonts } from '@/constants/theme';
+import { type ThemeColor } from '@/theme/tokens';
 import { useTheme } from '@/hooks/use-theme';
 
 export type TextVariant = 'display' | 'headline' | 'title' | 'body' | 'label' | 'caption' | 'amount';

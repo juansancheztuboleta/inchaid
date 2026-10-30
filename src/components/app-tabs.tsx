@@ -12,28 +12,28 @@ import { Pressable, StyleSheet, View, type PressableProps } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { AppText } from '@/components/app-text';
-import { Backdrop } from '@/components/backdrop';
 import { Glass, nativeGlass } from '@/components/glass';
 import { Icon } from '@/components/icon';
 import { MaxContentWidth, Radius, Spacing, TabBarGap, TabBarHeight } from '@/constants/theme';
-import { useTheme } from '@/hooks/use-theme';
+import { useCopy, useTheme } from '@/hooks/use-theme';
 
 export default function AppTabs() {
+  const copy = useCopy();
+
   return (
     <View style={styles.root}>
-      <Backdrop />
       <Tabs style={styles.root}>
         <TabSlot style={styles.slot} />
         <TabList asChild>
           <FloatingTabList>
             <TabTrigger name="index" href="/" asChild>
-              <TabButton icon={NewsIcon} label="Feed" />
+              <TabButton icon={NewsIcon} label={copy.tabs.feed} />
             </TabTrigger>
             <TabTrigger name="wallet" href="/wallet" asChild>
-              <TabButton icon={Wallet01Icon} label="Billetera" />
+              <TabButton icon={Wallet01Icon} label={copy.tabs.wallet} />
             </TabTrigger>
             <TabTrigger name="settings" href="/settings" asChild>
-              <TabButton icon={Settings02Icon} label="Equipo" />
+              <TabButton icon={Settings02Icon} label={copy.tabs.settings} />
             </TabTrigger>
           </FloatingTabList>
         </TabList>
@@ -55,19 +55,19 @@ function TabButton({ icon, label, isFocused, ...props }: TabButtonProps) {
       accessibilityState={{ selected: !!isFocused }}
       style={({ pressed }) => [
         styles.tab,
-        isFocused && !nativeGlass && { backgroundColor: colors.primary },
+        isFocused && !nativeGlass && { backgroundColor: colors.tabActive },
         pressed && !isFocused && styles.pressed,
       ]}>
       {isFocused && nativeGlass ? (
         <Glass
           radius={Radius.full}
-          tint="rgba(0, 110, 183, 0.92)"
+          tint={colors.tabActive}
           interactive
           style={StyleSheet.absoluteFill}
         />
       ) : null}
-      <Icon icon={icon} size={24} color={isFocused ? 'onPrimary' : 'textSecondary'} />
-      <AppText variant="caption" color={isFocused ? 'onPrimary' : 'textSecondary'}>
+      <Icon icon={icon} size={24} color={isFocused ? 'onTabActive' : 'tabInactive'} />
+      <AppText variant="caption" color={isFocused ? 'onTabActive' : 'tabInactive'}>
         {label}
       </AppText>
     </Pressable>

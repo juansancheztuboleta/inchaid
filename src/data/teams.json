@@ -1,0 +1,1049 @@
+{
+  "teams": [
+    {
+      "id": "atletico-nacional",
+      "rank": 1,
+      "name": "Atlético Nacional",
+      "full_name": "Club Atlético Nacional S.A.",
+      "short_name": "Nacional",
+      "city": "Medellín",
+      "department": "Antioquia",
+      "founded": "1947-03-07",
+      "stadium": {
+        "name": "Estadio Atanasio Girardot",
+        "capacity": 44826
+      },
+      "nicknames": [
+        "Los Verdolagas",
+        "El Verde",
+        "Rey de Copas",
+        "El Verde de la Montaña",
+        "El Verde Paisa",
+        "El Siempre Verde"
+      ],
+      "colors": {
+        "primary": {
+          "name": "Verde",
+          "hex": "#00843D"
+        },
+        "secondary": {
+          "name": "Blanco",
+          "hex": "#FFFFFF"
+        },
+        "accent": {
+          "name": "Negro",
+          "hex": "#000000"
+        }
+      },
+      "crest_url": "https://en.wikipedia.org/wiki/Special:FilePath/Escudo_Atl%C3%A9tico_Nacional.png",
+      "website": "https://www.atlnacional.com.co",
+      "fan_base_estimate_millions": {
+        "min": 8,
+        "max": 9
+      },
+      "social_media_followers": 11591000,
+      "main_rivals": [
+        "Independiente Medellín",
+        "Millonarios",
+        "América de Cali"
+      ],
+      "theme": {
+        "light": {
+          "background": {
+            "base": "#edf6f1",
+            "top": "#cce6d8",
+            "bottom": "#f7fbf9",
+            "blobA": "#00843D",
+            "blobB": "#005628",
+            "blobC": "#ffffff"
+          },
+          "text": {
+            "primary": "#1a171b",
+            "secondary": "rgba(26, 23, 27, 0.72)",
+            "tertiary": "rgba(26, 23, 27, 0.56)",
+            "accent": "#00843d",
+            "onBrand": "#ffffff",
+            "onAction": "#ffffff",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.55)",
+            "glassStrong": "rgba(255, 255, 255, 0.82)",
+            "glassBorder": "rgba(255, 255, 255, 0.7)",
+            "glassShadow": "rgba(26, 23, 27, 0.3)",
+            "glassOpaque": "rgba(255, 255, 255, 0.95)",
+            "line": "rgba(26, 23, 27, 0.1)",
+            "accentSoft": "rgba(0, 132, 61, 0.12)",
+            "switchOff": "#dee2e6"
+          },
+          "brand": {
+            "primary": "#00843D",
+            "primaryPressed": "#00632e",
+            "action": "#000000",
+            "actionPressed": "#000000"
+          },
+          "tabBar": {
+            "activeBackground": "#00843D",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(26, 23, 27, 0.72)"
+          },
+          "panel": {
+            "tint": "rgba(0, 132, 61, 0.9)"
+          },
+          "feedback": {
+            "danger": "#bd0a27",
+            "success": "#198754"
+          }
+        },
+        "dark": {
+          "background": {
+            "base": "#001007",
+            "top": "#003217",
+            "bottom": "#000d06",
+            "blobA": "#00843D",
+            "blobB": "#005c2b",
+            "blobC": "#40a36e"
+          },
+          "text": {
+            "primary": "#f1f4f7",
+            "secondary": "rgba(241, 244, 247, 0.74)",
+            "tertiary": "rgba(241, 244, 247, 0.56)",
+            "accent": "#26965a",
+            "onBrand": "#ffffff",
+            "onAction": "#1a171b",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.09)",
+            "glassStrong": "rgba(0, 26, 12, 0.72)",
+            "glassBorder": "rgba(255, 255, 255, 0.18)",
+            "glassShadow": "rgba(0, 0, 0, 0.5)",
+            "glassOpaque": "rgba(0, 26, 12, 0.96)",
+            "line": "rgba(241, 244, 247, 0.12)",
+            "accentSoft": "rgba(0, 132, 61, 0.3)",
+            "switchOff": "rgba(241, 244, 247, 0.22)"
+          },
+          "brand": {
+            "primary": "#00843D",
+            "primaryPressed": "#00632e",
+            "action": "#FFFFFF",
+            "actionPressed": "#cccccc"
+          },
+          "tabBar": {
+            "activeBackground": "#00843D",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(241, 244, 247, 0.74)"
+          },
+          "panel": {
+            "tint": "rgba(0, 132, 61, 0.9)"
+          },
+          "feedback": {
+            "danger": "#ff6b81",
+            "success": "#4cc38a"
+          }
+        },
+        "copy": {
+          "tabs": {
+            "feed": "Verdolaga"
+          },
+          "feed": {
+            "sectionTitle": "Lo último del Verde"
+          }
+        }
+      }
+    },
+    {
+      "id": "millonarios",
+      "rank": 2,
+      "name": "Millonarios",
+      "full_name": "Azul y Blanco Millonarios Fútbol Club S.A.",
+      "short_name": "Millos",
+      "city": "Bogotá",
+      "department": "Bogotá D.C.",
+      "founded": "1946-06-18",
+      "stadium": {
+        "name": "Estadio Nemesio Camacho El Campín",
+        "capacity": 36343
+      },
+      "nicknames": [
+        "Millos",
+        "Los Embajadores",
+        "El Ballet Azul",
+        "Los Azules",
+        "Los Albiazules"
+      ],
+      "colors": {
+        "primary": {
+          "name": "Azul",
+          "hex": "#003DA5"
+        },
+        "secondary": {
+          "name": "Blanco",
+          "hex": "#FFFFFF"
+        }
+      },
+      "crest_url": "https://en.wikipedia.org/wiki/Special:FilePath/Millonarios_F%C3%BAtbol_Club_logo.png",
+      "website": "https://millonarios.com.co",
+      "fan_base_estimate_millions": {
+        "min": 6.5,
+        "max": 7.5
+      },
+      "social_media_followers": 4790700,
+      "main_rivals": [
+        "Independiente Santa Fe",
+        "Atlético Nacional",
+        "América de Cali"
+      ],
+      "theme": {
+        "light": {
+          "background": {
+            "base": "#edf1f9",
+            "top": "#ccd8ed",
+            "bottom": "#f7f9fc",
+            "blobA": "#003DA5",
+            "blobB": "#00286b",
+            "blobC": "#ffffff"
+          },
+          "text": {
+            "primary": "#1a171b",
+            "secondary": "rgba(26, 23, 27, 0.72)",
+            "tertiary": "rgba(26, 23, 27, 0.56)",
+            "accent": "#003da5",
+            "onBrand": "#ffffff",
+            "onAction": "#ffffff",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.55)",
+            "glassStrong": "rgba(255, 255, 255, 0.82)",
+            "glassBorder": "rgba(255, 255, 255, 0.7)",
+            "glassShadow": "rgba(26, 23, 27, 0.3)",
+            "glassOpaque": "rgba(255, 255, 255, 0.95)",
+            "line": "rgba(26, 23, 27, 0.1)",
+            "accentSoft": "rgba(0, 61, 165, 0.12)",
+            "switchOff": "#dee2e6"
+          },
+          "brand": {
+            "primary": "#003DA5",
+            "primaryPressed": "#002e7c",
+            "action": "#003DA5",
+            "actionPressed": "#003184"
+          },
+          "tabBar": {
+            "activeBackground": "#003DA5",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(26, 23, 27, 0.72)"
+          },
+          "panel": {
+            "tint": "rgba(0, 61, 165, 0.9)"
+          },
+          "feedback": {
+            "danger": "#bd0a27",
+            "success": "#198754"
+          }
+        },
+        "dark": {
+          "background": {
+            "base": "#000714",
+            "top": "#00173f",
+            "bottom": "#000611",
+            "blobA": "#003DA5",
+            "blobB": "#002b74",
+            "blobC": "#406ebc"
+          },
+          "text": {
+            "primary": "#f1f4f7",
+            "secondary": "rgba(241, 244, 247, 0.74)",
+            "tertiary": "rgba(241, 244, 247, 0.56)",
+            "accent": "#5981c5",
+            "onBrand": "#ffffff",
+            "onAction": "#1a171b",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.09)",
+            "glassStrong": "rgba(0, 12, 33, 0.72)",
+            "glassBorder": "rgba(255, 255, 255, 0.18)",
+            "glassShadow": "rgba(0, 0, 0, 0.5)",
+            "glassOpaque": "rgba(0, 12, 33, 0.96)",
+            "line": "rgba(241, 244, 247, 0.12)",
+            "accentSoft": "rgba(0, 61, 165, 0.3)",
+            "switchOff": "rgba(241, 244, 247, 0.22)"
+          },
+          "brand": {
+            "primary": "#003DA5",
+            "primaryPressed": "#002e7c",
+            "action": "#FFFFFF",
+            "actionPressed": "#cccccc"
+          },
+          "tabBar": {
+            "activeBackground": "#003DA5",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(241, 244, 247, 0.74)"
+          },
+          "panel": {
+            "tint": "rgba(0, 61, 165, 0.9)"
+          },
+          "feedback": {
+            "danger": "#ff6b81",
+            "success": "#4cc38a"
+          }
+        },
+        "copy": {
+          "tabs": {
+            "feed": "Embajador"
+          },
+          "feed": {
+            "sectionTitle": "Noticias albiazules"
+          }
+        }
+      }
+    },
+    {
+      "id": "america-de-cali",
+      "rank": 3,
+      "name": "América de Cali",
+      "full_name": "América de Cali S.A.",
+      "short_name": "América",
+      "city": "Cali",
+      "department": "Valle del Cauca",
+      "founded": "1927-02-13",
+      "stadium": {
+        "name": "Estadio Olímpico Pascual Guerrero",
+        "capacity": 38000
+      },
+      "nicknames": [
+        "Los Diablos Rojos",
+        "Los Escarlatas",
+        "La Mechita",
+        "La Pasión de un Pueblo"
+      ],
+      "colors": {
+        "primary": {
+          "name": "Rojo escarlata",
+          "hex": "#D2122E"
+        },
+        "secondary": {
+          "name": "Blanco",
+          "hex": "#FFFFFF"
+        }
+      },
+      "crest_url": "https://en.wikipedia.org/wiki/Special:FilePath/Escudo_del_Am%C3%A9rica_de_Cali.svg",
+      "website": "https://www.americadecali.com",
+      "fan_base_estimate_millions": {
+        "min": 6,
+        "max": 7
+      },
+      "social_media_followers": 3789200,
+      "main_rivals": [
+        "Deportivo Cali",
+        "Atlético Nacional",
+        "Millonarios"
+      ],
+      "theme": {
+        "light": {
+          "background": {
+            "base": "#fceef0",
+            "top": "#f6d0d5",
+            "bottom": "#fef8f9",
+            "blobA": "#D2122E",
+            "blobB": "#890c1e",
+            "blobC": "#ffffff"
+          },
+          "text": {
+            "primary": "#1a171b",
+            "secondary": "rgba(26, 23, 27, 0.72)",
+            "tertiary": "rgba(26, 23, 27, 0.56)",
+            "accent": "#d2122e",
+            "onBrand": "#ffffff",
+            "onAction": "#ffffff",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.55)",
+            "glassStrong": "rgba(255, 255, 255, 0.82)",
+            "glassBorder": "rgba(255, 255, 255, 0.7)",
+            "glassShadow": "rgba(26, 23, 27, 0.3)",
+            "glassOpaque": "rgba(255, 255, 255, 0.95)",
+            "line": "rgba(26, 23, 27, 0.1)",
+            "accentSoft": "rgba(210, 18, 46, 0.12)",
+            "switchOff": "#dee2e6"
+          },
+          "brand": {
+            "primary": "#D2122E",
+            "primaryPressed": "#9e0e23",
+            "action": "#D2122E",
+            "actionPressed": "#a80e25"
+          },
+          "tabBar": {
+            "activeBackground": "#D2122E",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(26, 23, 27, 0.72)"
+          },
+          "panel": {
+            "tint": "rgba(210, 18, 46, 0.9)"
+          },
+          "feedback": {
+            "danger": "#bd0a27",
+            "success": "#198754"
+          }
+        },
+        "dark": {
+          "background": {
+            "base": "#190206",
+            "top": "#500711",
+            "bottom": "#150205",
+            "blobA": "#D2122E",
+            "blobB": "#930d20",
+            "blobC": "#dd4d62"
+          },
+          "text": {
+            "primary": "#f1f4f7",
+            "secondary": "rgba(241, 244, 247, 0.74)",
+            "tertiary": "rgba(241, 244, 247, 0.56)",
+            "accent": "#dd4d62",
+            "onBrand": "#ffffff",
+            "onAction": "#1a171b",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.09)",
+            "glassStrong": "rgba(42, 4, 9, 0.72)",
+            "glassBorder": "rgba(255, 255, 255, 0.18)",
+            "glassShadow": "rgba(0, 0, 0, 0.5)",
+            "glassOpaque": "rgba(42, 4, 9, 0.96)",
+            "line": "rgba(241, 244, 247, 0.12)",
+            "accentSoft": "rgba(210, 18, 46, 0.3)",
+            "switchOff": "rgba(241, 244, 247, 0.22)"
+          },
+          "brand": {
+            "primary": "#D2122E",
+            "primaryPressed": "#9e0e23",
+            "action": "#FFFFFF",
+            "actionPressed": "#cccccc"
+          },
+          "tabBar": {
+            "activeBackground": "#D2122E",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(241, 244, 247, 0.74)"
+          },
+          "panel": {
+            "tint": "rgba(210, 18, 46, 0.9)"
+          },
+          "feedback": {
+            "danger": "#ff6b81",
+            "success": "#4cc38a"
+          }
+        },
+        "copy": {
+          "tabs": {
+            "feed": "Escarlata"
+          },
+          "feed": {
+            "sectionTitle": "Pasión escarlata"
+          }
+        }
+      }
+    },
+    {
+      "id": "junior-de-barranquilla",
+      "rank": 4,
+      "name": "Junior de Barranquilla",
+      "full_name": "Club Deportivo Popular Junior Fútbol Club S.A.",
+      "short_name": "Junior",
+      "city": "Barranquilla",
+      "department": "Atlántico",
+      "founded": "1924-08-07",
+      "stadium": {
+        "name": "Estadio Metropolitano Roberto Meléndez",
+        "capacity": 49692
+      },
+      "nicknames": [
+        "Los Tiburones",
+        "El Equipo Tiburón",
+        "Los Rojiblancos",
+        "Los Quilleros",
+        "Los Reyes de la Costa",
+        "Los Curramberos"
+      ],
+      "colors": {
+        "primary": {
+          "name": "Rojo",
+          "hex": "#D71920"
+        },
+        "secondary": {
+          "name": "Blanco",
+          "hex": "#FFFFFF"
+        }
+      },
+      "crest_url": "https://en.wikipedia.org/wiki/Special:FilePath/Escudo_de_Atl%C3%A9tico_Junior.svg",
+      "website": "https://juniorfc.co",
+      "fan_base_estimate_millions": {
+        "min": 4,
+        "max": 5
+      },
+      "social_media_followers": 2936610,
+      "main_rivals": [
+        "Unión Magdalena"
+      ],
+      "theme": {
+        "light": {
+          "background": {
+            "base": "#fcefef",
+            "top": "#f7d1d2",
+            "bottom": "#fef8f8",
+            "blobA": "#D71920",
+            "blobB": "#8c1015",
+            "blobC": "#ffffff"
+          },
+          "text": {
+            "primary": "#1a171b",
+            "secondary": "rgba(26, 23, 27, 0.72)",
+            "tertiary": "rgba(26, 23, 27, 0.56)",
+            "accent": "#d71920",
+            "onBrand": "#ffffff",
+            "onAction": "#ffffff",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.55)",
+            "glassStrong": "rgba(255, 255, 255, 0.82)",
+            "glassBorder": "rgba(255, 255, 255, 0.7)",
+            "glassShadow": "rgba(26, 23, 27, 0.3)",
+            "glassOpaque": "rgba(255, 255, 255, 0.95)",
+            "line": "rgba(26, 23, 27, 0.1)",
+            "accentSoft": "rgba(215, 25, 32, 0.12)",
+            "switchOff": "#dee2e6"
+          },
+          "brand": {
+            "primary": "#D71920",
+            "primaryPressed": "#a11318",
+            "action": "#D71920",
+            "actionPressed": "#ac141a"
+          },
+          "tabBar": {
+            "activeBackground": "#D71920",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(26, 23, 27, 0.72)"
+          },
+          "panel": {
+            "tint": "rgba(215, 25, 32, 0.9)"
+          },
+          "feedback": {
+            "danger": "#bd0a27",
+            "success": "#198754"
+          }
+        },
+        "dark": {
+          "background": {
+            "base": "#1a0304",
+            "top": "#520a0c",
+            "bottom": "#160303",
+            "blobA": "#D71920",
+            "blobB": "#971216",
+            "blobC": "#e15358"
+          },
+          "text": {
+            "primary": "#f1f4f7",
+            "secondary": "rgba(241, 244, 247, 0.74)",
+            "tertiary": "rgba(241, 244, 247, 0.56)",
+            "accent": "#df474d",
+            "onBrand": "#ffffff",
+            "onAction": "#1a171b",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.09)",
+            "glassStrong": "rgba(43, 5, 6, 0.72)",
+            "glassBorder": "rgba(255, 255, 255, 0.18)",
+            "glassShadow": "rgba(0, 0, 0, 0.5)",
+            "glassOpaque": "rgba(43, 5, 6, 0.96)",
+            "line": "rgba(241, 244, 247, 0.12)",
+            "accentSoft": "rgba(215, 25, 32, 0.3)",
+            "switchOff": "rgba(241, 244, 247, 0.22)"
+          },
+          "brand": {
+            "primary": "#D71920",
+            "primaryPressed": "#a11318",
+            "action": "#FFFFFF",
+            "actionPressed": "#cccccc"
+          },
+          "tabBar": {
+            "activeBackground": "#D71920",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(241, 244, 247, 0.74)"
+          },
+          "panel": {
+            "tint": "rgba(215, 25, 32, 0.9)"
+          },
+          "feedback": {
+            "danger": "#ff6b81",
+            "success": "#4cc38a"
+          }
+        },
+        "copy": {
+          "tabs": {
+            "feed": "Tiburón"
+          },
+          "feed": {
+            "sectionTitle": "Tiburón al día"
+          }
+        }
+      }
+    },
+    {
+      "id": "independiente-santa-fe",
+      "rank": 5,
+      "name": "Independiente Santa Fe",
+      "full_name": "Club Independiente Santa Fe",
+      "short_name": "Santa Fe",
+      "city": "Bogotá",
+      "department": "Bogotá D.C.",
+      "founded": "1941-02-28",
+      "stadium": {
+        "name": "Estadio Nemesio Camacho El Campín",
+        "capacity": 36343
+      },
+      "nicknames": [
+        "Los Cardenales",
+        "El Expreso Rojo",
+        "Los Leones",
+        "El Primer Campeón"
+      ],
+      "colors": {
+        "primary": {
+          "name": "Rojo",
+          "hex": "#C8102E"
+        },
+        "secondary": {
+          "name": "Blanco",
+          "hex": "#FFFFFF"
+        }
+      },
+      "crest_url": "https://en.wikipedia.org/wiki/Special:FilePath/Escudo_de_Independiente_Santa_Fe.png",
+      "website": "https://independientesantafe.co",
+      "fan_base_estimate_millions": {
+        "min": 2,
+        "max": 3
+      },
+      "social_media_followers": 1683800,
+      "main_rivals": [
+        "Millonarios"
+      ],
+      "theme": {
+        "light": {
+          "background": {
+            "base": "#fbeef0",
+            "top": "#f4cfd5",
+            "bottom": "#fdf8f9",
+            "blobA": "#C8102E",
+            "blobB": "#820a1e",
+            "blobC": "#ffffff"
+          },
+          "text": {
+            "primary": "#1a171b",
+            "secondary": "rgba(26, 23, 27, 0.72)",
+            "tertiary": "rgba(26, 23, 27, 0.56)",
+            "accent": "#c8102e",
+            "onBrand": "#ffffff",
+            "onAction": "#ffffff",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.55)",
+            "glassStrong": "rgba(255, 255, 255, 0.82)",
+            "glassBorder": "rgba(255, 255, 255, 0.7)",
+            "glassShadow": "rgba(26, 23, 27, 0.3)",
+            "glassOpaque": "rgba(255, 255, 255, 0.95)",
+            "line": "rgba(26, 23, 27, 0.1)",
+            "accentSoft": "rgba(200, 16, 46, 0.12)",
+            "switchOff": "#dee2e6"
+          },
+          "brand": {
+            "primary": "#C8102E",
+            "primaryPressed": "#960c23",
+            "action": "#C8102E",
+            "actionPressed": "#a00d25"
+          },
+          "tabBar": {
+            "activeBackground": "#C8102E",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(26, 23, 27, 0.72)"
+          },
+          "panel": {
+            "tint": "rgba(200, 16, 46, 0.9)"
+          },
+          "feedback": {
+            "danger": "#bd0a27",
+            "success": "#198754"
+          }
+        },
+        "dark": {
+          "background": {
+            "base": "#180206",
+            "top": "#4c0611",
+            "bottom": "#140205",
+            "blobA": "#C8102E",
+            "blobB": "#8c0b20",
+            "blobC": "#d64c62"
+          },
+          "text": {
+            "primary": "#f1f4f7",
+            "secondary": "rgba(241, 244, 247, 0.74)",
+            "tertiary": "rgba(241, 244, 247, 0.56)",
+            "accent": "#d64c62",
+            "onBrand": "#ffffff",
+            "onAction": "#1a171b",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.09)",
+            "glassStrong": "rgba(40, 3, 9, 0.72)",
+            "glassBorder": "rgba(255, 255, 255, 0.18)",
+            "glassShadow": "rgba(0, 0, 0, 0.5)",
+            "glassOpaque": "rgba(40, 3, 9, 0.96)",
+            "line": "rgba(241, 244, 247, 0.12)",
+            "accentSoft": "rgba(200, 16, 46, 0.3)",
+            "switchOff": "rgba(241, 244, 247, 0.22)"
+          },
+          "brand": {
+            "primary": "#C8102E",
+            "primaryPressed": "#960c23",
+            "action": "#FFFFFF",
+            "actionPressed": "#cccccc"
+          },
+          "tabBar": {
+            "activeBackground": "#C8102E",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(241, 244, 247, 0.74)"
+          },
+          "panel": {
+            "tint": "rgba(200, 16, 46, 0.9)"
+          },
+          "feedback": {
+            "danger": "#ff6b81",
+            "success": "#4cc38a"
+          }
+        },
+        "copy": {
+          "tabs": {
+            "feed": "Cardenal"
+          },
+          "feed": {
+            "sectionTitle": "Noticias del Cardenal"
+          }
+        }
+      }
+    },
+    {
+      "id": "deportivo-cali",
+      "rank": 6,
+      "name": "Deportivo Cali",
+      "full_name": "Asociación Deportivo Cali",
+      "short_name": "Cali",
+      "city": "Cali",
+      "department": "Valle del Cauca",
+      "founded": "1912-11-23",
+      "stadium": {
+        "name": "Estadio Deportivo Cali (Palmaseca)",
+        "location": "Palmira, Valle del Cauca",
+        "capacity": 42000
+      },
+      "nicknames": [
+        "Los Verdiblancos",
+        "Los Azucareros",
+        "La Amenaza Verde",
+        "La Tromba Verde",
+        "La Cantera de Oro"
+      ],
+      "colors": {
+        "primary": {
+          "name": "Verde",
+          "hex": "#00A650"
+        },
+        "secondary": {
+          "name": "Blanco",
+          "hex": "#FFFFFF"
+        }
+      },
+      "crest_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Escudo-deportivo-cali-2012.png",
+      "website": null,
+      "fan_base_estimate_millions": {
+        "min": 1.5,
+        "max": 2
+      },
+      "social_media_followers": 2033800,
+      "main_rivals": [
+        "América de Cali"
+      ],
+      "theme": {
+        "light": {
+          "background": {
+            "base": "#edf9f3",
+            "top": "#cceddc",
+            "bottom": "#f7fcfa",
+            "blobA": "#00A650",
+            "blobB": "#006c34",
+            "blobC": "#ffffff"
+          },
+          "text": {
+            "primary": "#1a171b",
+            "secondary": "rgba(26, 23, 27, 0.72)",
+            "tertiary": "rgba(26, 23, 27, 0.56)",
+            "accent": "#008540",
+            "onBrand": "#1a171b",
+            "onAction": "#1a171b",
+            "onPanel": "#1a171b",
+            "onPanelSoft": "rgba(26, 23, 27, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.55)",
+            "glassStrong": "rgba(255, 255, 255, 0.82)",
+            "glassBorder": "rgba(255, 255, 255, 0.7)",
+            "glassShadow": "rgba(26, 23, 27, 0.3)",
+            "glassOpaque": "rgba(255, 255, 255, 0.95)",
+            "line": "rgba(26, 23, 27, 0.1)",
+            "accentSoft": "rgba(0, 166, 80, 0.12)",
+            "switchOff": "#dee2e6"
+          },
+          "brand": {
+            "primary": "#00A650",
+            "primaryPressed": "#007d3c",
+            "action": "#009e4c",
+            "actionPressed": "#007e3d"
+          },
+          "tabBar": {
+            "activeBackground": "#00A650",
+            "activeContent": "#1a171b",
+            "inactiveContent": "rgba(26, 23, 27, 0.72)"
+          },
+          "panel": {
+            "tint": "rgba(0, 166, 80, 0.9)"
+          },
+          "feedback": {
+            "danger": "#bd0a27",
+            "success": "#198754"
+          }
+        },
+        "dark": {
+          "background": {
+            "base": "#00140a",
+            "top": "#003f1e",
+            "bottom": "#001108",
+            "blobA": "#00A650",
+            "blobB": "#007438",
+            "blobC": "#40bc7c"
+          },
+          "text": {
+            "primary": "#f1f4f7",
+            "secondary": "rgba(241, 244, 247, 0.74)",
+            "tertiary": "rgba(241, 244, 247, 0.56)",
+            "accent": "#00a650",
+            "onBrand": "#1a171b",
+            "onAction": "#1a171b",
+            "onPanel": "#1a171b",
+            "onPanelSoft": "rgba(26, 23, 27, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.09)",
+            "glassStrong": "rgba(0, 33, 16, 0.72)",
+            "glassBorder": "rgba(255, 255, 255, 0.18)",
+            "glassShadow": "rgba(0, 0, 0, 0.5)",
+            "glassOpaque": "rgba(0, 33, 16, 0.96)",
+            "line": "rgba(241, 244, 247, 0.12)",
+            "accentSoft": "rgba(0, 166, 80, 0.3)",
+            "switchOff": "rgba(241, 244, 247, 0.22)"
+          },
+          "brand": {
+            "primary": "#00A650",
+            "primaryPressed": "#007d3c",
+            "action": "#FFFFFF",
+            "actionPressed": "#cccccc"
+          },
+          "tabBar": {
+            "activeBackground": "#00A650",
+            "activeContent": "#1a171b",
+            "inactiveContent": "rgba(241, 244, 247, 0.74)"
+          },
+          "panel": {
+            "tint": "rgba(0, 166, 80, 0.9)"
+          },
+          "feedback": {
+            "danger": "#ff6b81",
+            "success": "#4cc38a"
+          }
+        },
+        "copy": {
+          "tabs": {
+            "feed": "Azucarero"
+          },
+          "feed": {
+            "sectionTitle": "La Amenaza Verde"
+          }
+        }
+      }
+    },
+    {
+      "id": "independiente-medellin",
+      "rank": 7,
+      "rank_note": "Empatado en el puesto 6 con Deportivo Cali según Win Sports",
+      "name": "Independiente Medellín",
+      "full_name": "Deportivo Independiente Medellín",
+      "short_name": "DIM",
+      "city": "Medellín",
+      "department": "Antioquia",
+      "founded": "1913-11-14",
+      "stadium": {
+        "name": "Estadio Atanasio Girardot",
+        "capacity": 44826
+      },
+      "nicknames": [
+        "El Rojo Paisa",
+        "El Poderoso de la Montaña",
+        "El Equipo del Pueblo",
+        "El Decano del Fútbol Colombiano",
+        "Medallo"
+      ],
+      "colors": {
+        "primary": {
+          "name": "Rojo",
+          "hex": "#CE1126"
+        },
+        "secondary": {
+          "name": "Azul oscuro",
+          "hex": "#00205B"
+        },
+        "accent": {
+          "name": "Blanco",
+          "hex": "#FFFFFF"
+        }
+      },
+      "crest_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Escudo_del_Deportivo_Independiente_Medell%C3%ADn.png",
+      "website": "https://dimoficial.com",
+      "fan_base_estimate_millions": {
+        "min": 1.5,
+        "max": 2
+      },
+      "social_media_followers": null,
+      "main_rivals": [
+        "Atlético Nacional"
+      ],
+      "theme": {
+        "light": {
+          "background": {
+            "base": "#fceef0",
+            "top": "#f5cfd4",
+            "bottom": "#fef8f8",
+            "blobA": "#CE1126",
+            "blobB": "#860b19",
+            "blobC": "#ffffff"
+          },
+          "text": {
+            "primary": "#1a171b",
+            "secondary": "rgba(26, 23, 27, 0.72)",
+            "tertiary": "rgba(26, 23, 27, 0.56)",
+            "accent": "#ce1126",
+            "onBrand": "#ffffff",
+            "onAction": "#ffffff",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.55)",
+            "glassStrong": "rgba(255, 255, 255, 0.82)",
+            "glassBorder": "rgba(255, 255, 255, 0.7)",
+            "glassShadow": "rgba(26, 23, 27, 0.3)",
+            "glassOpaque": "rgba(255, 255, 255, 0.95)",
+            "line": "rgba(26, 23, 27, 0.1)",
+            "accentSoft": "rgba(206, 17, 38, 0.12)",
+            "switchOff": "#dee2e6"
+          },
+          "brand": {
+            "primary": "#CE1126",
+            "primaryPressed": "#9b0d1d",
+            "action": "#00205B",
+            "actionPressed": "#001a49"
+          },
+          "tabBar": {
+            "activeBackground": "#CE1126",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(26, 23, 27, 0.72)"
+          },
+          "panel": {
+            "tint": "rgba(206, 17, 38, 0.9)"
+          },
+          "feedback": {
+            "danger": "#bd0a27",
+            "success": "#198754"
+          }
+        },
+        "dark": {
+          "background": {
+            "base": "#190205",
+            "top": "#4e060e",
+            "bottom": "#150204",
+            "blobA": "#CE1126",
+            "blobB": "#900c1b",
+            "blobC": "#da4d5c"
+          },
+          "text": {
+            "primary": "#f1f4f7",
+            "secondary": "rgba(241, 244, 247, 0.74)",
+            "tertiary": "rgba(241, 244, 247, 0.56)",
+            "accent": "#da4d5c",
+            "onBrand": "#ffffff",
+            "onAction": "#1a171b",
+            "onPanel": "#ffffff",
+            "onPanelSoft": "rgba(255, 255, 255, 0.85)"
+          },
+          "surface": {
+            "glass": "rgba(255, 255, 255, 0.09)",
+            "glassStrong": "rgba(41, 3, 8, 0.72)",
+            "glassBorder": "rgba(255, 255, 255, 0.18)",
+            "glassShadow": "rgba(0, 0, 0, 0.5)",
+            "glassOpaque": "rgba(41, 3, 8, 0.96)",
+            "line": "rgba(241, 244, 247, 0.12)",
+            "accentSoft": "rgba(206, 17, 38, 0.3)",
+            "switchOff": "rgba(241, 244, 247, 0.22)"
+          },
+          "brand": {
+            "primary": "#CE1126",
+            "primaryPressed": "#9b0d1d",
+            "action": "#FFFFFF",
+            "actionPressed": "#cccccc"
+          },
+          "tabBar": {
+            "activeBackground": "#CE1126",
+            "activeContent": "#ffffff",
+            "inactiveContent": "rgba(241, 244, 247, 0.74)"
+          },
+          "panel": {
+            "tint": "rgba(206, 17, 38, 0.9)"
+          },
+          "feedback": {
+            "danger": "#ff6b81",
+            "success": "#4cc38a"
+          }
+        },
+        "copy": {
+          "tabs": {
+            "feed": "Poderoso"
+          },
+          "feed": {
+            "sectionTitle": "El Poderoso al día"
+          }
+        }
+      }
+    }
+  ]
+}

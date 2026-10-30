@@ -1,18 +1,38 @@
+import { Image } from 'expo-image';
+import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { AppText } from '@/components/app-text';
-import { useTheme } from '@/hooks/use-theme';
+import { readableOn } from '@/lib/color';
+import type { Team } from '@/types/team';
 
 type CrestProps = {
-  initials: string;
+  team: Pick<Team, 'initials' | 'colors' | 'crestUrl'>;
   size?: number;
-  /** `home` va en azul de marca; `away` en tinta. */
-  side?: 'home' | 'away';
 };
 
-/** Escudo simple: disco con iniciales. Evita inventar una estrella u otro emblema de marca. */
-export function Crest({ initials, size = 40, side = 'home' }: CrestProps) {
-  const { colors } = useTheme();
+/**
+ * Escudo del club. Si la API entrega `crestUrl` se muestra la imagen; mientras no exista o si
+ * falla la descarga, se dibuja un disco con los colores del club y sus iniciales.
+ */
+export function Crest({ team, size = 40 }: CrestProps) {
+  const [failedUrl, setFailedUrl] = useState<string | null>(null);
+
+  if (team.crestUrl && failedUrl !== team.crestUrl) {
+    return (
+      <Image
+        source={{ uri: team.crestUrl }}
+        contentFit="contain"
+        transition={150}
+        accessible={false}
+        onError={() => setFailedUrl(team.crestUrl)}
+        style={{ width: size, height: size }}
+      />
+    );
+  }
+
+  const primary = team.colors.primary.hex;
+  const ring = readableOn(primary) === '#ffffff' ? team.colors.secondary.hex : '#ffffff';
 
   return (
     <View
@@ -24,15 +44,19 @@ export function Crest({ initials, size = 40, side = 'home' }: CrestProps) {
           width: size,
           height: size,
           borderRadius: size / 2,
-          backgroundColor: side === 'home' ? colors.primary : '#1a171b',
-          borderColor: colors.glassBorder,
+          backgroundColor: primary,
+          borderColor: ring,
+          borderWidth: Math.max(2, size / 20),
         },
       ]}>
       <AppText
         variant="label"
-        color="onPrimary"
-        style={{ fontSize: size * 0.34, lineHeight: size * 0.42, color: '#ffffff' }}>
-        {initials}
+        style={{
+          fontSize: size * 0.34,
+          lineHeight: size * 0.42,
+          color: readableOn(primary),
+        }}>
+        {team.initials}
       </AppText>
     </View>
   );
@@ -42,6 +66,5 @@ const styles = StyleSheet.create({
   disc: {
     alignItems: 'center',
     justifyContent: 'center',
-    borderWidth: 2,
   },
 });

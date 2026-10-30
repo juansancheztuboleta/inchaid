@@ -1,20 +1,26 @@
+import { ArrowLeft01Icon } from '@hugeicons/core-free-icons';
+import { useRouter } from 'expo-router';
 import { type ReactNode } from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { AppText } from '@/components/app-text';
+import { GlassIconButton } from '@/components/buttons';
 import { MaxContentWidth, Spacing, TabBarGap, TabBarHeight } from '@/constants/theme';
 
 type ScreenProps = {
   title: string;
   /** Lado derecho del título grande, p. ej. un botón de vidrio. */
   trailing?: ReactNode;
+  /** Vista de detalle: muestra el botón de volver y no reserva espacio para la barra de tabs. */
+  back?: boolean;
   children: ReactNode;
 };
 
 /** Pantalla de primer nivel: título grande que se desplaza con el contenido y espacio para la barra flotante. */
-export function Screen({ title, trailing, children }: ScreenProps) {
+export function Screen({ title, trailing, back, children }: ScreenProps) {
   const insets = useSafeAreaInsets();
+  const router = useRouter();
 
   return (
     <ScrollView
@@ -25,9 +31,16 @@ export function Screen({ title, trailing, children }: ScreenProps) {
         styles.content,
         {
           paddingTop: insets.top + Spacing.three,
-          paddingBottom: insets.bottom + TabBarHeight + TabBarGap + Spacing.five,
+          paddingBottom: back
+            ? insets.bottom + Spacing.five
+            : insets.bottom + TabBarHeight + TabBarGap + Spacing.five,
         },
       ]}>
+      {back ? (
+        <View style={styles.backRow}>
+          <GlassIconButton icon={ArrowLeft01Icon} label="Volver" onPress={() => router.back()} />
+        </View>
+      ) : null}
       <View style={styles.header}>
         <AppText variant="display" accessibilityRole="header" style={styles.title}>
           {title}
@@ -48,6 +61,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: Spacing.three,
     gap: Spacing.four,
   },
+  backRow: { alignItems: 'flex-start' },
   header: {
     flexDirection: 'row',
     alignItems: 'center',
